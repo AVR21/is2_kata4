@@ -18,7 +18,7 @@ public class Main {
     }
 
     private static String url(String file) {
-        return "jdbc:sqlite"+ file;
+        return "jdbc:sqlite:"+ file;
     }
 
 }
